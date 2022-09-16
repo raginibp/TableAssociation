@@ -11,10 +11,11 @@ module.exports = (sequelize, DataTypes) => {
     })
 
 
-    // Cart.hasMany(models.Product, {
-    //   foreignKey: 'cartId',
-    //   onDelete: 'CASCADE'
-    // })
+
+    Cart.hasMany(models.Product, {
+      foreignKey: 'cartId',
+      onDelete: 'CASCADE'
+    })
   };
   return Cart;
 };

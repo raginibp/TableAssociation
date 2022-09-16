@@ -7,6 +7,12 @@ module.exports = {
       userId: 1,
       createdAt: new Date(),
       updatedAt: new Date()
+      },
+      {
+        cartName: 'Cart2',
+        userId: 1,
+        createdAt: new Date(),
+        updatedAt: new Date()
       }], {});
 
   },
